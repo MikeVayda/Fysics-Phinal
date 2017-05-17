@@ -8,9 +8,21 @@ const terminal = readline.createInterface({
     output:process.stdout
 });
 
-terminal.question("What type of equation are you looking for?",function(str){
-
-    //you will configure your series of questions inside here.
-
-
+terminal.question("What type of equation are you looking for?(motion or energy)",function(str){
+    if(str == "motion"){
+        terminal.question("What are you looking for?(d,v,a,t)",function(str)){
+            if(str == 'd'){
+                terminal.question("What do you have?",function(str)){}
+            }
+            else if(str =='v'){
+                terminal.question("What do you have?",function(str)){}
+            }
+            else if(str == 'a'){
+                terminal.question("What do you have?",function(str)){}
+            }
+            else if(str == 't'){
+                terminal.question("What do you have?",function(str)){}
+            }
+        }
+    }
 });

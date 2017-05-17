@@ -1,20 +1,26 @@
 var exports = module.exports = {};
 
-//use this prototype to create the other functions
-exports.distance = function(v,t){};
-let distance (v,t){
-return d;
-function distance (a,v,t){
-    d=0.5*a*t*t+v+5;
-    function velocity
-    v*t*v*v*t+t*V;
-    return; v
-    function time
-    let time div;
-    return; t
-    function force
-    let force div;
-    return; f
-    function gravity
-    let gravity div;
-    return; g
+exports.distance = function(v,t){
+     return v*t;
+};
+exports.velocity = function(d,t){
+    return d/t;
+};
+exports.time = function(v,t){
+    d/v;
+};
+exports.acceleration=function(vi,vf,t){
+  return (vf-vi)/t;
+};
+exports.Distance=function(vint,vfin,time){
+  return (acceleration(vint,vfin,time)*t*t)/2+i*t;
+}
+exports.Distance=function(vi,vf,t){
+    return ((vf+vi)t)/2;
+}
+eports.velocity2 =function(vi,a,t){
+    return vi+a*t;
+}
+exports.time2=function(vf,vi,a){
+    return (vf-vi)/a;
+}
