@@ -10,17 +10,17 @@ const terminal = readline.createInterface({
 
 terminal.question("What type of equation are you looking for?(motion or energy)",function(str){
     if(str == "motion"){
-        terminal.question("What are you looking for?(d,v,a,t)",function(str)){
-            if(str == 'd'){
+        terminal.question("What equation are you looking for?(d,v,a,t)",function(str)){
+            if(str == "d"){
                 terminal.question("What do you have?",function(str)){}
             }
-            else if(str =='v'){
+            else if(str =="v"){
                 terminal.question("What do you have?",function(str)){}
             }
-            else if(str == 'a'){
+            else if(str == "a"){
                 terminal.question("What do you have?",function(str)){}
             }
-            else if(str == 't'){
+            else if(str == "t"){
                 terminal.question("What do you have?",function(str)){}
             }
         }
